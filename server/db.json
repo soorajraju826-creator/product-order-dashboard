@@ -1,0 +1,98 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 2499,
+      "stock": 15,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+    },
+    {
+      "id": 2,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 3299,
+      "stock": 8,
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+    },
+    {
+      "id": 3,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 4999,
+      "stock": 0,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+    },
+    {
+      "id": 4,
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 1499,
+      "stock": 20,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 1999,
+      "stock": 12,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "customer": "John",
+      "date": "2026-08-05",
+      "status": "Delivered",
+      "total": 5499,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 4,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "customer": "Sarah",
+      "date": "2026-08-07",
+      "status": "Pending",
+      "total": 3299,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "customer": "David",
+      "date": "2026-08-10",
+      "status": "Shipped",
+      "total": 6998,
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1
+        },
+        {
+          "productId": 5,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
